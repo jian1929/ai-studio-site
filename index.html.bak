@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--
+  OPC 作品页 · 2026-10-10 · 单文件零依赖（本地打开即可预览）
+  部署选项（三选一）：
+  1) Cloudflare Pages: npx wrangler pages deploy opc/site --project-name your-studio
+  2) 自有服务器: 把 index.html 放到 nginx 静态目录（如 VM260 新增一个 server block / 子路径）
+  3) 暂不部署: 直接在浏览器打开本文件，截图用于 X/Upwork 资料
+  替换清单: 已填（Jian · AI Studio / jian1929@qq.com / @jian1929 / 微信 jian1929）
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jian · AI Studio — AI Automations, Delivered in 5 Days</title>
+<style>
+  :root { --ink:#111; --muted:#555; --line:#e5e5e5; --bg:#fafafa; --accent:#0a7d4f; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+         color:var(--ink); background:#fff; line-height:1.6; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 20px; }
+  header { padding:56px 0 28px; border-bottom:1px solid var(--line); }
+  .brand { font-size:22px; font-weight:700; letter-spacing:.2px; }
+  h1 { font-size:34px; line-height:1.25; margin:18px 0 10px; }
+  .sub { color:var(--muted); font-size:17px; }
+  .cta { display:inline-block; margin-top:18px; padding:10px 18px; background:var(--ink); color:#fff;
+         border-radius:8px; text-decoration:none; font-weight:600; }
+  section { padding:40px 0; border-bottom:1px solid var(--line); }
+  h2 { font-size:20px; margin-bottom:16px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; }
+  @media (max-width:720px){ .grid{ grid-template-columns:1fr; } h1{font-size:26px;} }
+  .card { border:1px solid var(--line); border-radius:12px; padding:18px; background:var(--bg); }
+  .card h3 { font-size:16px; margin-bottom:6px; }
+  .price { color:var(--accent); font-weight:700; margin:6px 0; }
+  .card p { color:var(--muted); font-size:14px; }
+  ul.clean { list-style:none; }
+  ul.clean li { padding:6px 0; color:var(--muted); font-size:15px; }
+  ul.clean li b { color:var(--ink); font-weight:600; }
+  .steps { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  @media (max-width:720px){ .steps{ grid-template-columns:1fr 1fr; } }
+  .step { padding:14px; border:1px dashed var(--line); border-radius:10px; font-size:14px; color:var(--muted); }
+  .step b { display:block; color:var(--ink); margin-bottom:4px; }
+  .sample { border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:12px; }
+  .tag { display:inline-block; font-size:12px; color:var(--accent); border:1px solid var(--accent);
+         border-radius:99px; padding:1px 10px; margin-bottom:8px; }
+  footer { padding:28px 0 48px; color:var(--muted); font-size:14px; }
+  footer a { color:var(--ink); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">Jian · AI Studio</div>
+    <h1>I build one AI workflow that pays for itself.<br>Delivered in 5 days. Fixed price.</h1>
+    <p class="sub">A one-person studio for small businesses: lead follow-up, customer support replies, and content pipelines — built so your team can run it without me.</p>
+    <a class="cta" href="mailto:jian1929@qq.com?subject=Automation%20enquiry">Tell me your most annoying process →</a>
+  </header>
+
+  <section>
+    <h2>What I build</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Workflow Sprint</h3>
+        <div class="price">$450 flat</div>
+        <p>One automation, built and documented in 5 working days. Lead follow-up, support replies, or a content pipeline — wired into your existing tools. <b>$800 only if custom APIs are involved; you'll know the final price before we start.</b></p>
+      </div>
+      <div class="card">
+        <h3>Support Agent</h3>
+        <div class="price">$1,200 + $250/mo</div>
+        <p>An AI agent that answers your top 20 questions from your own docs — with a monthly tuning loop so it gets better, not stale.</p>
+      </div>
+      <div class="card">
+        <h3>Visibility Monitor</h3>
+        <div class="price">from $210/mo</div>
+        <p>Monthly report: what do ChatGPT / Perplexity / 国内 AI 助手 say about your brand vs competitors — plus fixes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Straight answers (before you ask)</h2>
+    <ul class="clean">
+      <li><b>What does it cost?</b> $450 flat for a standard workflow. $800 only when custom APIs/integrations are involved — and you get the exact number in writing before any work starts.</li>
+      <li><b>What if it doesn't work?</b> I test it end-to-end and walk you through it live. If it doesn't do what we agreed, you don't pay for that part.</li>
+      <li><b>Who are you?</b> One person, based in China (UTC+8). You talk to me directly — no account managers. Reply within 24 hours.</li>
+      <li><b>Is this "just AI"?</b> AI writes the first draft; I build, test and hand it over. You get a working system and a walkthrough, not a chatbot bolted onto your site.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><b>1 · Intake</b>You tell me the process. I write the spec — 10 minutes of your time.</div>
+      <div class="step"><b>2 · Production</b>My delivery pipeline builds it (an AI workhorse does the heavy lifting).</div>
+      <div class="step"><b>3 · Check</b>I test it end-to-end before you see it — and walk you through it live on a 20-min screen share.</div>
+      <div class="step"><b>4 · Handoff</b>Working automation + walkthrough video + docs + 14-day support.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sample builds</h2>
+    <div class="sample">
+      <span class="tag">Demo build</span>
+      <h3>Missed-Call Rescue — HVAC company</h3>
+      <p>Missed call → instant SMS with menu &amp; booking link → AI qualifies the job → books a slot → one follow-up if silent. Designed to recover jobs worth ~$650 each. Iterated 3 rounds against an adversarial QA (FAIL → FAIL → PASS-WITH-FIXES).</p>
+      <p><a href="demo-01-hvac-v3.pdf">📄 Full delivery pack (PDF, 14 pages): spec · deliverable · QA · fixes</a></p>
+    </div>
+    <div class="sample">
+      <span class="tag">Demo build</span>
+      <h3>AI Front Desk — dental clinic</h3>
+      <p>24/7 phone answering, calendar booking, SMS confirmations with reschedule links; goal: cut no-shows from 18% to &lt;12%. Specced → built → QA'd → fixed → <b>final QA: PASS</b>.</p>
+      <p><a href="demo-02-dental.pdf">📄 Full delivery pack (PDF, 16 pages): spec · deliverable · QA · fixes</a></p>
+    </div>
+    <div class="sample">
+      <span class="tag">Demo build</span>
+      <h3>Support Agent — Shopify skincare brand</h3>
+      <p>AI support agent covering the top 20 ticket types from existing docs + read-only order lookup, with an escalation matrix and a monthly tuning loop; goal: first response 14h → &lt;4h without hiring. <b>Final QA: PASS</b>.</p>
+      <p><a href="demo-03-ecommerce-support.pdf">📄 Full delivery pack (PDF, 18 pages): spec · deliverable · QA · fixes</a></p>
+    </div>
+    <div class="sample">
+      <span class="tag">Demo build</span>
+      <h3>AI Visibility Monitor — kids-coding brand</h3>
+      <p>4 AI models × 12 real buyer questions, demo brand vs 3 competitors. The demo brand showed up in <b>0 of 9 category questions</b> while competitors were cited in 67–92% of answers — the exact blind spot this monthly service fixes.</p>
+      <p><a href="demo-04-geo-monitor.pdf">📄 Sample monitoring report (PDF): visibility table · per-question detail · fix list</a></p>
+    </div>
+    <div class="sample">
+      <span class="tag">Demo build</span>
+      <h3>Lead Routing &amp; AI Qualification — marketing agency</h3>
+      <p>Form → Airtable → AI qualification → owner assignment → instant reply, plus Google Sheets sync, Slack failure alerts, and a weekly report — built as node-level n8n workflows with error branches and a test plan. Modeled on a real posted job. <b>Final QA: all blockers resolved</b> (FAIL → fixes → re-check).</p>
+      <p><a href="demo-05-lead-routing.pdf">📄 Full delivery pack (PDF): spec · deliverable · QA · fixes</a></p>
+    </div>
+    <div class="sample">
+      <span class="tag">Demo build</span>
+      <h3>Monthly Content Pack — café</h3>
+      <p>20 ready-to-post social posts (caption + hashtags + shot brief + best time to post), a 4-week calendar, and 3 reusable caption formulas — so a small café can just copy-paste and post. Content-type delivery. <b>QA: PASS on first review.</b></p>
+      <p><a href="demo-06-content-pack-v2.pdf">📄 Full delivery pack (PDF): spec · deliverable · QA</a></p>
+    </div>
+    <div class="sample">
+      <span class="tag">Demo build</span>
+      <h3>n8n Silent-Failure Diagnostic</h3>
+      <p>An agency's lead workflow that "works, then silently stops." Ranked root-cause analysis — each cause tied to their exact symptoms, with a confirmation check and a fix — plus a hardening plan and an "if you can only do 3 things today" list. <b>QA: PASS.</b></p>
+      <p><a href="demo-07-fix-diagnosis.pdf">📄 Full delivery pack (PDF): spec · deliverable · QA · fixes</a></p>
+    </div>
+    <p class="sub" style="font-size:13px;">Demo builds use fictional clients; real client work follows the same pipeline with a human QA sign-off.</p>
+  </section>
+
+  <section>
+    <h2>Why a one-person studio</h2>
+    <ul class="clean">
+      <li><b>No account managers, no handoffs.</b> You talk to the person who designs your system.</li>
+      <li><b>Fixed price, no hourly surprises.</b> Scope is written down before we start.</li>
+      <li><b>Systems, not heroics.</b> I only sell what a repeatable pipeline can deliver — and I say no when it can't.</li>
+      <li><b>Fast.</b> A sprint is 5 working days because the production layer runs 24/7.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Contact: <a href="mailto:jian1929@qq.com">jian1929@qq.com</a> · X: <a href="https://x.com/jian1929">@jian1929</a> · 微信: jian1929</p>
+    <p style="margin-top:8px;">© 2026 Jian · AI Studio · Reply within 24 hours, or the plan's free.</p>
+  </footer>
+
+</div>
+</body>
+</html>
